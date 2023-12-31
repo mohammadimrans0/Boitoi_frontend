@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import { FiHeart, FiBookmark } from "react-icons/fi";
-import logo from "../../Assets/logo.png";
+import logo from "../../assets/logo.png";
 import { useState } from "react";
 
 const Navbar = () => {
