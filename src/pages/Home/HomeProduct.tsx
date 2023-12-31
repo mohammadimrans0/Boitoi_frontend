@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Link } from "react-router-dom";
@@ -6,8 +5,7 @@ import { useGetBooksQuery } from "../../redux/api/bookApi";
 import Cart from "../Shared/Cart";
 
 const HomeProduct = () => {
-    const {data, isLoading, error} = useGetBooksQuery(undefined)
-  // console.log(data, isLoading, error);
+    const {data} = useGetBooksQuery(undefined)
   const booksData = data?.data;
   return (
     <div className="mt-16">

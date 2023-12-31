@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useGetBooksQuery } from "../../redux/api/bookApi";
 import Cart from "../Shared/Cart";
 

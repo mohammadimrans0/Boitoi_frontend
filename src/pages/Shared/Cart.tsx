@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Link } from "react-router-dom";
-// import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Cart = ({ book }: any) => {
   const {   _id ,title, author, genre, publicationYear } = book;

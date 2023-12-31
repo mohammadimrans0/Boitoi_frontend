@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -10,7 +9,7 @@ import {
 const UpdateBook = () => {
   const { id }: any = useParams();
 
-  const { data, isLoading } = useSingleBookQuery(id);
+  const { data } = useSingleBookQuery(id);
 
   const [updateBook] = useUpdateBookMutation();
 

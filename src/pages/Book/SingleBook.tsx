@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Link, useParams, useNavigate } from "react-router-dom";
@@ -10,7 +9,7 @@ import {
 const SingleBook = () => {
   const navigate = useNavigate();
   const { id }: any = useParams();
-  const { data, isLoading, error } = useSingleBookQuery(id);
+  const { data } = useSingleBookQuery(id);
 
   const { _id, title, author, genre, review, publicationYear } =
     data?.data || {};

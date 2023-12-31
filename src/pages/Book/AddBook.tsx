@@ -22,10 +22,8 @@ const AddBook = () => {
 
   const handleSubmit =async (e: any) => {
      
-     e.preventDefault();
-     // Perform actions with formData, such as sending it to an API or dispatching a Redux action
-
-     // For demonstration purposes, log the formData to the console
+    e.preventDefault();
+    
     console.log("Form Data Submitted:", formData);
     
     try {
